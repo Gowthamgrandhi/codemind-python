@@ -5,7 +5,7 @@ while i>0:
     r=i%10
     sum+=r
     i=i//10
-if sum==n:
-    print('Neon Number')
+if n==sum:
+    print("Neon Number")
 else:
-    print('Not Neon Number')
+    print("Not Neon Number")
